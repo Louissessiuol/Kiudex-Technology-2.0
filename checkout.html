@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|KIUDEX Technology</title>
+
+    <!--CSS Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="./assets/images/logoo.png" type="image/x-icon">
+
+
+</head>
+<body>
+
+     <!--Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-white bg-body-tertiary px-5 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./assets/images/Kiudex-logo.png" alt="kiudex-logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="cart.html" style="color: #121212;"><i class="fas fa-shopping-bag"></i></a>
+              <a href="account.html" style="color: #121212;"><i class="fas fa-user"></i></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <!--Checkout-->
+    <section class="checkout2 mt-5 pt-5 pb-3" id="checkout2">
+        <div class="container my-4">
+            <h2 class="form-weight-bold text-center">Check Out</h2>
+        </div>
+        <div class="mx-auto container d-flex justify-content-center align-items-center flex-column">
+            
+            <form action="" id="checkout-form" class="checkout-form">
+                <div class="form-group4 mb-4 checkout-small-element ">
+                  <input type="text" name="name" id="checkout-name" class="form-group4-input" required>
+                  <label for="name" class="form-group4-label">Name</label>
+                </div>
+
+                <div class="form-group4 mb-4 checkout-small-element ">
+                  <input type="text" name="email" id="checkout-email" class="form-group4-input" required>
+                  <label for="email" class="form-group4-label">Email</label>
+                </div>
+
+                <div class="form-group4 mb-4 checkout-small-element ">
+                  <input type="number" name="phone" id="checkout-phone" class="form-group4-input" required>
+                  <label for="phone" class="form-group4-label">Phone</label>
+                </div>
+
+                <div class="form-group4 mb-4 checkout-small-element ">
+                  <input type="text" name="city" id="checkout-city" class="form-group4-input" required>
+                  <label for="city" class="form-group4-label">City</label>
+                </div>
+
+                <div class="form-group4 mb-4 checkout-large-element">
+                  <input type="text" name="address" id="checkout-address" class="form-group4-input" required>
+                  <label for="address" class="form-group4-label">Address</label>
+                </div>
+
+                <div class="form-group2 mb-4 checkout-btn-container">
+                    <!-- <input type="submit" id="login-btn" class="form-group4-input checkout-btn" value="Place Order"> -->
+                    <a href="order-placed.html" class="form-group2-a form-btn">Place Order</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section id="footer" class="footer">
+            <div class="container">
+                <footer class="pt-5 pb-3">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                  <li class="nav-item"><a href="index.html" class="nav-link px-2 ">Home</a></li>
+                  <li class="nav-item"><a href="shop.html" class="nav-link px-2 ">Shop</a></li>
+                  <li class="nav-item"><a href="about.html" class="nav-link px-2 ">About</a></li>
+                  <li class="nav-item"><a href="contact.html" class="nav-link px-2 ">Contact Us</a></li>
+                </ul>
+                <p class="text-center">© <img src="./assets/images/logoo.png" alt="logo-small" width="30px" height="30px"> Kiudex Technology, Inc</p>
+                </footer>
+            </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

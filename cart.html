@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop|Kiudex Technology</title>
+
+    <!--CSS Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="./assets/images/logoo.png" type="image/x-icon">
+
+
+</head>
+<body>
+     <!--Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-white bg-body-tertiary px-5 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./assets/images/Kiudex-logo.png" alt="kiudex-logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="cart.html" style="color: #121212;"><i class="fas fa-shopping-bag"></i></a>
+                <a href="account.html" style="color: #121212;"><i class="fas fa-user"></i></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!--Cart-->
+    <section id="cart" class="cart container my-5 py-5">
+        <div class="container mt-5">
+            <h2 class="text-center">Your Cart</h2>
+            <p class="text-center mb-5">Get free delivery on all products.</p>
+            <hr>
+        </div>
+
+        <table class="mt-5 pt-5">
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <tr class="product-row">
+                <td class="td-product-details">
+                    <div class="product-info">
+                        <img src="./assets/images/phone/p1/3.png" alt="phone1" class="img-fluid">
+                        <div class="d-flex flex-column justify-content-center">
+                            <h3>i-Decx Halo 1 Pro Max</h3>
+                            <small><span>₱</span> 70,990</small>
+                            <br>
+                            <a href="#" class="remove-btn">Remove</a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <input type="number" name="quantity" id="" value="1" class="">
+                    
+                </td>
+
+                <td>
+                    <h4 class="product-price fw-medium"><span>₱</span> 70,990</h4>
+                </td>
+
+                
+            </tr>
+
+            <tr class="product-row">
+                <td class="td-product-details">
+                    <div class="product-info">
+                        <img src="./assets/images/phone/p2/3.png" alt="phone1" class="img-fluid">
+                        <div class="d-flex flex-column justify-content-center">
+                            <h3>i-Decx 12</h3>
+                            <small><span>₱</span> 56,990</small>
+                            <br>
+                            <a href="#" class="remove-btn">Remove</a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <input type="number" name="quantity" id="" value="1" class="">
+                    
+                </td>
+
+                <td>
+                    <h4 class="product-price fw-medium"><span>₱</span> 56,990</h4>
+                </td>
+
+                
+            </tr>
+
+            <tr class="product-row">
+                <td class="td-product-details">
+                    <div class="product-info">
+                        <img src="./assets/images/laptops/PRODUCT 1/1.png" alt="phone1" class="img-fluid">
+                        <div class="d-flex flex-column justify-content-center">
+                            <h3>i-Book Pro Eternal</h3>
+                            <small><span>₱</span> 104,990</small>
+                            <br>
+                            <a href="#" class="remove-btn">Remove</a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <input type="number" name="quantity" id="" value="1" class="">
+                    
+                </td>
+
+                <td>
+                    <h4 class="product-price fw-medium"><span>₱</span> 70,990</h4>
+                </td>
+
+                
+            </tr>
+        </table>
+
+        <div class="cart-total">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>₱ 70,990</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>FREE</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="checkout">
+            <div class="checkout-total">
+                <h4 class="fw-medium">Your Total</h4>
+                <h4 class="fw-medium">₱ 70,990</h4>
+            </div>
+            <button class="checkout-btn"><a href="checkout.html" style="color: #FFFFFF; text-decoration: none;">Check Out</a></button>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section id="footer" class="footer">
+        <div class="container">
+            <footer class="pt-5 pb-3 mt-5">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 ">Home</a></li>
+                <li class="nav-item"><a href="shop.html" class="nav-link px-2 ">Shop</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 ">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 ">Contact Us</a></li>
+              </ul>
+              <p class="text-center">© <img src="./assets/images/logoo.png" alt="logo-small" width="30px" height="30px"> Kiudex Technology, Inc</p>
+            </footer>
+          </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
